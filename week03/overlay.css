@@ -1,6 +1,19 @@
+h3 {
+    text-shadow: 0 0 12px #333;
+    border-bottom: 1px solid #899;
+    margin-bottom: 0.3rem;
+}
 *{
     margin: 0;
-    padding: 0;    
+    padding: 0;       
+}
+h3 {
+    display:block;
+    font-size: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 main {
     max-width: 800px;
