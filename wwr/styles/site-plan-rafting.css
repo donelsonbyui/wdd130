@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@200..800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@200..800&display=swap');
 
-:root {
+:root{
     --primary-color: #023047;
-    --secondary-color: hsl(192, 70%, 43%);
-    --accent1-color: hsl(43, 100%, 51%);
-    --accent2-color: hsl(32, 100%, 49%);
+    --secondary-color: #219cba;
+    --accent1-color: #ffb805;
+    --accent2-color: #fa8500;
 
     --heading-font: archivo, sans serif;
     --paragraph-font: manrope, sans serif;
 
-    --nav-background-color: hsl(0, 0%, 100%);
-    --nav-link-color:var(--accent2-color);
-    --nav-hover-background-color:var(--secondary-color); }   
+    --nav-background-color: #ffffff;
+    --nav-link-color: #023047;
+    --nav-hover-background-color:#ffffff;
+    --nav-hover-link-color: #219cba;
+ }   
 
 body {
     max-width: 960px;
@@ -48,7 +50,7 @@ nav a {
     text-decoration: none;
     padding: 1rem;    
 }
-nav a:link a:visited {
+nav a:link, nav a:visited {
     color: var(--nav-link-color);    
 }
 nav a:hover {
