@@ -33,6 +33,8 @@ main img {
 .grid {
     display: grid;
     align-items: center;
+    margin: 0 auto;
+    max-width: 840px;
 }
 main{
     max-width: 840px;
