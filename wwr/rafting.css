@@ -25,6 +25,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(autofit,minmax(200px, 1fr));
     padding: 20px;
     background-color: var(--primary-color);
     color: var(--accent1-color)
