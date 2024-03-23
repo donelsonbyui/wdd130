@@ -27,10 +27,21 @@ h1,h2,h3,h4,h5,h6 {
 header {
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: repeat(autofit,minmax(200px, 1fr));
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    max-width: 1000px;
     padding: 20px;
     background-color: var(--primary-color);
-    color: var(--accent1-color)
+    color: var(--accent1-color)    
+}
+.logo img {
+    margin: 0 0.25rem 0 rem;
+    width: 64px;
+    height: auto;
+}
+h1 {
+    font-size: 2rem;
+    font-family: archivo, manrope, sans-serif;
 }
 p {
     padding: 20px;
