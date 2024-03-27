@@ -18,7 +18,15 @@ body {
     padding: 20px;
     font-family: var(--paragraph-font);
 }
-
+main {
+    width: 600;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 2rem;
+}
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
