@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@200..800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body {
+    font-family: Archivo, Manrope, sans-serif;
+    font-size: 1.2em;
+    color: #00171F;
+    background: #fff;
+}
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0.5);
+    border-radius: 0.5rem;
+    background-color: #fff;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.25rem'
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .5;
+    font-size: 1.4rem;    
+}
+button:hover {
+    background-color: royalblue;
+}
+footer {
+    margin: 2rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.6em;
+    color: #333;
+    border-top: 1px solid #aaa;
+}
