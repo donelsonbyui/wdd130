@@ -19,7 +19,7 @@ body {
     font-family: var(--paragraph-font);
 }
 main {
-    width: 600;
+    width: 600px;
     margin: 0 auto;
 }
 .grid {
@@ -27,8 +27,11 @@ main {
     grid-template-columns: 70% 30%;
     gap: 2rem;
 }
-h1,h2,h3,h4,h5,h6 {
-    font-family: var(--heading-font);
+h2,h3,h4,h5,h6 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
     color: var(--secondary-color);
 }
 
