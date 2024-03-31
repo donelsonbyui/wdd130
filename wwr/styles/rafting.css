@@ -72,7 +72,8 @@ p {
 
 section {
     background-color: var(--primary-color);
-    color: #067bb6;    
+    color: #067bb6; 
+
 }
 nav{
     background-color: var(--nav-background-color);
@@ -98,7 +99,11 @@ map {
     padding: 25px;
 
 }
-
-    
+h5 {
+    margin: 40px;
+}
+h2{
+    padding: 25px;
+}   
     
 
