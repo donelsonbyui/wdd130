@@ -35,8 +35,8 @@ img {
 
 .grid {
     display: grid;
-    grid-template-columns: 3;
-    gap: 2px;
+    
+
 }
 section {
     grid-column: 1/4;
