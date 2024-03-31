@@ -34,7 +34,7 @@ img {
 }
 
 .grid {
-    display: grid;
+    display: grid 3;
     
 
 }
