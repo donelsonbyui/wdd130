@@ -58,7 +58,7 @@ p {
 
 section {
     background-color: var(--primary-color);
-    color: #023047;    
+    color: #067bb6;    
 }
 nav{
     background-color: var(--nav-background-color);
@@ -79,6 +79,12 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-img {
-    
+map {
+    display:inline-block;
+    padding: 25px;
+
 }
+
+    
+    
+
