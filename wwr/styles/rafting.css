@@ -95,7 +95,7 @@ map {
     display:right;
     padding: 50px;
     
-    
+  
 
 }
 h5 {
@@ -109,6 +109,9 @@ button {
     
 }  
 footer{
+    margin: 1rem;
+    display: grid;
     
+
 }
 
