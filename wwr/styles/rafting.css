@@ -20,7 +20,7 @@ body {
     font-family: var(--paragraph-font);
 }
 main {
-    width: 600px;
+    width: 100%;
     margin: 0 auto;
 
 }
@@ -66,11 +66,25 @@ h1 {
 p {
     padding: 20px;
 }
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: space-between; */
+}
+main h1{
+    text-align:center;
+}
 
-section {
+.crew {
     background-color: var(--primary-color);
     color: #067bb6; 
-
+}
+.crews{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.crews img{
+    width: 100%;
 }
 nav{
     background-color: var(--nav-background-color);
@@ -110,7 +124,9 @@ button {
 }  
 footer{
     margin: 1rem;
-    display: grid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 
 }
