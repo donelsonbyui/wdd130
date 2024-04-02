@@ -8,12 +8,14 @@
     --heading-font: archivo, sans serif;
     --paragraph-font: manrope, sans serif;
 
-    --nav-background-color: #ffb805;
+    --nav-background-color: white;
     --nav-link-color: #023047;
-    --nav-hover-background-color:#fa8500;
+    --nav-hover-background-color:#ffb805;
     --nav-hover-link-color: #219cba;
 
 }
+
+
 body {
     max-width: 100%;
     padding: 20px;
