@@ -47,7 +47,7 @@ label {
 }
 input, select, textarea {
     padding: 0.5rem;
-    font-size: 1.25rem'
+    font-size: 1.25rem;
 }
 input[type="checkbox"] {
     width: 22px;
