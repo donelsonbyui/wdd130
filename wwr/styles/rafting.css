@@ -95,16 +95,20 @@ nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    text-align: center;
 }
 nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding: 1rem;    
+    padding: 1rem; 
+    text-align: center;   
 }
 nav a:link, nav a:visited {
     color: var(--nav-link-color); 
-    text-decoration: none;   
+    text-decoration: none; 
+    text-align: center;
+      
 }
 nav a:hover {
     color: var(--nav-hover-link-color);
