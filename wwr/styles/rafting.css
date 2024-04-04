@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@200..800&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 :root{
     --primary-color: #023047;
     --secondary-color: #219cba;
@@ -19,12 +15,27 @@
     --nav-hover-link-color: #219cba;
 
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 body {
     max-width: 100%;
     padding: 20px;
     font-family: var(--paragraph-font);
+}
+.hero {
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid blue;
+    display: flex;
+}
+.hero img {
+    width: 100%;
+    height: auto;
 }
 main {
     width: 100%;
@@ -52,25 +63,39 @@ h2,h3,h4,h5,h6 {
 header {
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 120px 1fr 2fr;
+    grid-template-columns: 120px 2fr 2fr;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
     max-width: 100%;
     padding: 20px;
-    background-image:'images/raftingbanner.png';
+   /*  background-image:'images/raftingbanner.png'; */
     background-color: var(--primary-color);
     color: var(--accent1-color) 
      
 }
-.container {
-
+.headcontainer {
+    background-color:#023047;
+    background-image: url('images/raftingbanner.png');
+    background-size: cover;
+    display:grid;
 }
-.logo img {
-    margin: 0 0.25rem 0 1rem;
+.logoimg {
+    /* margin: 0 0.25rem 0 1rem;
     width: 50px;
-    height: auto;    
+    height: auto; */ 
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;   
 }
-
+.top{ 
+    border-bottom: 2px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
 h1 {
     font-size: 2rem;
     font-family: archivo, manrope, sans-serif;
@@ -103,7 +128,11 @@ nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
-    text-align: center;
+    text-align: right;
+    background-image: url('images/raftingbanner.jpg');
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
 }
 nav a {
     display: block;
@@ -125,6 +154,7 @@ nav a:hover {
 map {
     display:right;
     padding: 50px;
+    
     
   
 
