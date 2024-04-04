@@ -28,10 +28,20 @@ body {
     font-family: var(--paragraph-font);
 }
 .hero {
-    margin-top: 1rem;
+   /*  margin-top: 1rem;
     padding-left: 20px;
     border: 1px solid blue;
     display: flex;
+} */
+    border-bottom: 2px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 30px;
+
+    background-color:#067bb6;
+    background-image: url('images/raftingbanner.png');
 }
 .hero img {
     width: 100%;
