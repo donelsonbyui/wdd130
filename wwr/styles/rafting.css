@@ -85,7 +85,7 @@ header {
     color: var(--accent1-color) 
      
 }
-.headcontainer {
+.container {
     background-color:#023047;
     background-image: url('images/raftingbanner.png');
     background-size: cover;
