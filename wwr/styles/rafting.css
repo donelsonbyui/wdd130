@@ -42,6 +42,8 @@ body {
 
     background-color:#067bb6;
     background-image: url('images/raftingbanner.png');
+    background-size: cover;
+    
 }
 .hero img {
     width: 100%;
@@ -100,11 +102,11 @@ header {
 }
 .top{ 
     border-bottom: 2px solid #000;
-    padding: 20px;
-    display: flex;
-    justify-content: flex-start;
+    padding: 20px 20;
+    display: flex;    
     align-items: center;
-    gap: 30px;
+    gap: 30px; 
+    
 }
 h1 {
     font-size: 2rem;
