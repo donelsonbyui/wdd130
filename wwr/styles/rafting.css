@@ -77,10 +77,10 @@ header {
     display: grid;
     grid-template-columns: 120px 2fr 2fr;
     align-items: center;
-    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     max-width: 100%;
     padding: 20px;
-   /*  background-image:'images/raftingbanner.png'; */
+    background-image:'images/raftingbanner.png'; 
     background-color: var(--primary-color);
     color: var(--accent1-color) 
      
@@ -153,13 +153,20 @@ nav{
     gap: 30px;
 
 }
+.navigation {
+    display: flex;
+    list-style: none;
+}
+.navigation li {
+    flex: 1 1 100%;
+}
 nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem; 
-    text-align: center;   
-}
+    /* text-align: center; */  
+} 
 nav a:link, nav a:visited {
     color: var(--nav-link-color); 
     text-decoration: none; 
@@ -244,7 +251,7 @@ button {
     padding: 20px;
     display: flex;
     justify-content: flex-start;
-    
+
 
 }
 footer{
