@@ -240,7 +240,12 @@ button {
 }
 .toursection {
 
-    grid-column: 1/4;
+    border-bottom: 2px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    
+
 }
 footer{
     margin: 1rem;
