@@ -153,13 +153,7 @@ nav{
     gap: 30px;
 
 }
-.navigation {
-    display: flex;
-    list-style: none;
-}
-.navigation li {
-    flex: 1 1 100%;
-}
+
 nav a {
     display: block;
     color: var(--nav-link-color);
