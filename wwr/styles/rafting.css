@@ -80,7 +80,7 @@ header {
     border-bottom: 1px solid #ccc;
     max-width: 100%;
     padding: 20px;
-    background-image:'images/raftingbanner.png'; 
+     
     background-color: var(--primary-color);
     color: var(--accent1-color) 
      
@@ -109,7 +109,7 @@ header {
 }
 .top{ 
     border-bottom: 2px solid #000;
-    padding: 20px 20 20;
+    padding: 20px 20px;
     display: flex;    
     align-items: center;
     gap: 30px; 
@@ -173,7 +173,7 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 map {
-    display:block;
+    display:box;
     padding: 50px;
     
     
@@ -185,7 +185,7 @@ h5 {
 }
 h2{
     padding: 25px;
-    display:0;
+    
     text-align: center;
 } 
 /*.form-item {
@@ -232,7 +232,7 @@ button {
     color: #fff;
     border: none;
     border-radius: .5rem;
-    padding: .5;
+    padding: .5rem;
     font-size: 1.4rem; 
     display: center;      
     
@@ -241,12 +241,12 @@ button {
     box-sizing: border-box;
     border: 1px solid blue;
     width: 100%;
-    float: right;
+    
 
 }
 .tours {
     display: grid;
-    grid-template-columns: 4, 1fr 1fr;
+    grid-template-columns: 4fr, 1fr;
 }
 .toursection {
 
