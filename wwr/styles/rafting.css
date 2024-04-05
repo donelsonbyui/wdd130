@@ -85,7 +85,7 @@ header {
     color: var(--accent1-color) 
      
 }
-.container {
+.headercontainer {
     border-bottom: 2px solid #000;
     padding:20px;
     display: flex;
@@ -96,6 +96,7 @@ header {
     background-size: cover;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2;
 }
 .logoimg {
     /* margin: 0 0.25rem 0 1rem;
@@ -108,7 +109,7 @@ header {
 }
 .top{ 
     border-bottom: 2px solid #000;
-    padding: 20px 20;
+    padding: 20px 20 20;
     display: flex;    
     align-items: center;
     gap: 30px; 
@@ -172,7 +173,7 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 map {
-    display:right;
+    display:block;
     padding: 50px;
     
     
@@ -184,7 +185,7 @@ h5 {
 }
 h2{
     padding: 25px;
-    display:center;
+    display:0;
     text-align: center;
 } 
 /*.form-item {
@@ -232,19 +233,20 @@ button {
     border: none;
     border-radius: .5rem;
     padding: .5;
-    font-size: 1.4rem;       
+    font-size: 1.4rem; 
+    display: center;      
     
 }  
 .firstsection {
     box-sizing: border-box;
     border: 1px solid blue;
     width: 100%;
-    float: center;
+    float: right;
 
 }
 .tours {
     display: grid;
-    grid-template-columns: 4, 1fr;
+    grid-template-columns: 4, 1fr 1fr;
 }
 .toursection {
 
@@ -259,8 +261,7 @@ footer{
     margin: 1rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;    
 
 }
 
