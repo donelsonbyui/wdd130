@@ -96,7 +96,7 @@ header {
     background-size: cover;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2;
+    grid-template-rows: 2fr;
 }
 .logoimg {
     /* margin: 0 0.25rem 0 1rem;
@@ -173,7 +173,7 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 map {
-    display:box;
+    display:display-box;
     padding: 50px;
     
     
@@ -234,7 +234,7 @@ button {
     border-radius: .5rem;
     padding: .5rem;
     font-size: 1.4rem; 
-    display: center;      
+    display: display-box;      
     
 }  
 .firstsection {
@@ -246,7 +246,7 @@ button {
 }
 .tours {
     display: grid;
-    grid-template-columns: 4fr, 1fr;
+    grid-template-columns: 4fr 1fr;
 }
 .toursection {
 
