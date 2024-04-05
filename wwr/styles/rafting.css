@@ -141,7 +141,7 @@ main h1{
     grid-template-columns: 1fr 1fr;
 }
 .crews img{
-    width: 100%;
+    width: 40%;
 }
 nav{
     background-color: var(--nav-background-color);
@@ -173,8 +173,9 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 map {
-    display:display-box;
+    display:box;
     padding: 50px;
+    float: right;
     
     
   
