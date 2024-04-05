@@ -28,27 +28,18 @@ body {
     font-family: var(--paragraph-font);
 }
 .hero {
-   /*  margin-top: 1rem;
-    padding-left: 20px;
-    border: 1px solid blue;
-    display: flex;
-} */
-    border-bottom: 2px solid #000;
-    padding: 20px;
-    display: flex; 
+    margin-top: 1rem;        
+    display: flex;    
+    padding: 20px;     
     justify-content:flex-start;
     align-items: center;
-    gap: 30px;
-
-    background-color:#067bb6;
+    gap: 30px;    
     background-image: url('images/raftingbanner.png');
-    background-size: cover;
+    /* background-size: cover; */
     
 }
-.hero img {
-    width: 100%;
-    height: auto;
-}
+
+
 main {
     width: 100%;
     margin: 0 auto;
@@ -92,25 +83,25 @@ header {
     justify-content: flex-start;
     align-items: center;
     background-color:#023047;
-    background-image: url('images/raftingbanner.png');
-    background-size: cover;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+ 
+    
      
 }
 .logoimg {
-    /* margin: 0 0.25rem 0 1rem;
-    width: 50px;
-    height: auto; */ 
-    width: 200px;
-    height: auto;
+    margin: 0 0.25rem 0 1rem;
+    width: 10%;
+    height: auto; 
+   /*  width: 200px;
+    height: auto; */
     min-width: 100px;
-    border: 5px double gray;   
+    border: 5px double gray;
+    justify-self: center; 
+    align-content: center;  
 }
 .top{ 
-    border-bottom: 2px solid #000;
-    padding: 20px 20px;
-    display: flex;    
+    /* border: 2px double #000; */
+    padding: 10px 10px;
+    /* display: flex;  */   
     align-items: center;
     gap: 30px; 
     
@@ -139,10 +130,16 @@ main h1{
 .crews{
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 .crews img{
     width: 40%;
+    padding:40px;
 }
+
+    
+   
+
 nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
@@ -247,23 +244,26 @@ button {
 }
 .tours {
     display: grid;
-    grid-column-start: 2;
-    grid-column-end: span 2;
+  
+    
 
 }
 .toursection {
-
+    
     border-bottom: 2px solid #000;
     padding: 20px;
     display: flex;
     justify-content: flex-start;
-
+    
 
 }
+.book-now {
+    
+}
+
 footer{
     margin: 1rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;    
 
 }
