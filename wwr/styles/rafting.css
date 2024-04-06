@@ -152,6 +152,9 @@ main h1{
     padding: 1rem;
     border: 2px solid darkblue;
 }
+#happyimg {
+    border-radius: 50%;
+}
 .intro {
     width: 15vw;
     margin: 1rem auto;
