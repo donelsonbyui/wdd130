@@ -90,9 +90,7 @@ header {
 .logoimg {
     margin: 0 0.25rem 0 1rem;
     width: 10%;
-    height: auto; 
-   /*  width: 200px;
-    height: auto; */
+    height: auto;    
     min-width: 100px;
     border: 5px double gray;
     justify-self: center; 
