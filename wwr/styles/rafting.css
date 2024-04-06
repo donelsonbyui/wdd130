@@ -145,10 +145,14 @@ main h1{
     width: 40%;
     padding:40px;
 }
+.intro {
+    width: 75vw;
+    margin: 1rem auto;
+    background-color: aliceblue;
+    padding: 1rem;
+    border: 2px solid darkblue;
 
-    
-   
-
+}
 nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
@@ -182,10 +186,14 @@ map {
     display:box;
     padding: 50px;
     float: right;
+}
+table {
+    border: 2px solid rgb(0, 0, 8);
     
-    
-  
-
+}
+th,td {
+    border: 1px solid rgb(13, 48, 114);
+    padding: 10px
 }
 h5 {
     margin: 40px;
@@ -265,9 +273,6 @@ button {
     justify-content: flex-start;
     
 
-}
-.book-now {
-    
 }
 
 footer{
