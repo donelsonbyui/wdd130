@@ -101,7 +101,7 @@ header {
     gap: 30px;         
 }
 .box {
-    width: 400;
+    width: 400px;
     padding: 1em;
     border-radius: .5rem;
     border: 3px solid #023047;
@@ -197,7 +197,7 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 map {
-    display:box;
+    display:auto;
     padding: 50px;
     float: right;
 }
