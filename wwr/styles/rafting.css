@@ -98,8 +98,15 @@ header {
     padding: 10px 10px;
     /* display: flex;  */   
     align-items: center;
-    gap: 30px; 
-        
+    gap: 30px;         
+}
+.box {
+    width 400px;
+    padding: 1em;
+    border-radius: .5rem;
+    border: 3px solid #023047;
+    background-color: aliceblue
+
 }
 .flexbox-container{
     display: flex;
@@ -255,10 +262,17 @@ button {
     border: none;
     border-radius: .5rem;
     padding: .5rem;
-    font-size: 1.4rem; 
-          
-    
+    font-size: 1.4rem;     
 }  
+.call-to-action {
+    margin: 1rem;
+    background-color: darkblue;
+    color: #fff;
+    border: solid;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1.4rem;    
+}
 .firstsection {
     box-sizing: border-box;
     border: 1px solid blue;
