@@ -16,8 +16,8 @@
 
 }
 *{
-    margin: 0;
-    padding: 0;
+    margin: 40px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -100,6 +100,10 @@ header {
     align-items: center;
     gap: 30px;         
 }
+.gridhome {
+    display: grid;
+    
+}
 .box {
     width: 400px;
     padding: 1em;
@@ -171,9 +175,7 @@ nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
-    text-align: right;
-    background-image: url('images/raftingbanner.jpg');
-    justify-content: flex-start;
+    text-align: right;   
     align-items: center;
     gap: 30px;
 
