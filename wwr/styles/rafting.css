@@ -21,11 +21,36 @@
     box-sizing: border-box;
 }
 
+.home h1 {
+    position: absolute;
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.homeimg {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+.homesection {
+    width: 80%;
+    height: 200px;
+}
+.section1 {
+    margin: 1rem;
+    grid-column: 2;
+    grid-row:auto;
 
+}
 body {
     max-width: 100%;
     padding: 20px;
     font-family: var(--paragraph-font);
+    font-size: 1.2em;
+    background:#c2e6ef
 }
 .hero {
     margin-top: 1rem;        
@@ -108,9 +133,16 @@ header {
     width: 400px;
     padding: 1em;
     border-radius: .5rem;
-    border: 3px solid #023047;
-    background-color: aliceblue
+    justify-content: left;
+   /*  border: 3px solid #023047;
+    background-color: aliceblue; */
 
+}
+.box2 {
+    width: 400px;
+    padding: 1em;
+    align-items: right;
+   
 }
 .flexbox-container{
     display: flex;
@@ -185,8 +217,7 @@ nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding: 1rem; 
-    /* text-align: center; */  
+    padding: 0rem;       
 } 
 nav a:link, nav a:visited {
     color: var(--nav-link-color); 
@@ -219,10 +250,10 @@ h2{
     
     text-align: center;
 } 
-/*.form-item {
-    display:grid;
-    align-items: left;    
-} */
+.boxhome {
+    margin: auto;
+    padding: 40px;
+}
 form {
     width: 650px;
     margin: 0 auto;
@@ -239,8 +270,21 @@ fieldset {
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 1rem;
 }
+legend {
+    padding: 0.5rem;
+    color: #023047
+    
+}
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
 .column1{
-    grid-template-columns:1fr 3fr;
+    grid-template-columns:3fr 1fr;
     margin:0.5rem 0;
 }
 .column2{
@@ -250,6 +294,7 @@ fieldset {
 input, select, textarea {
     padding: 0.5rem;
     font-size: 1.25rem;
+    vertical-align: bottom;
 }
 input[type="checkbox"] {
     width: 22px;
