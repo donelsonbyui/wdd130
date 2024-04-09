@@ -180,6 +180,10 @@ p {
 main h1{
     text-align:center;
 }
+.adventure {
+    display: grid;
+    grid-template-columns: repeat 1fr;
+}
 
 .crew {
     background-color: var(--primary-color);
