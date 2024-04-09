@@ -147,7 +147,7 @@ header {
 .box2 {
     width: 400px;
     padding: 1em;
-    align-items: right;
+    align-items: auto;
    
 }
 .flexbox-container{
