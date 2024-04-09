@@ -147,7 +147,7 @@ header {
 .box2 {
     width: 400px;
     padding: 1em;
-    align-items: auto;
+    align-items: flex-start;
    
 }
 .flexbox-container{
@@ -182,7 +182,7 @@ main h1{
 }
 .adventure {
     display: grid;
-    grid-template-columns: repeat 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .crew {
