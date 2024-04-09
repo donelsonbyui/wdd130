@@ -45,6 +45,15 @@
     grid-row:auto;
 
 }
+.newsletter {
+    width: 100px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0.5);
+    border-radius: 0.5rem;
+    background-color: #fff;
+    display: grid;
+}
 body {
     max-width: 100%;
     padding: 20px;
@@ -128,7 +137,9 @@ header {
 }
 .gridhome {
     display: grid;
-    
+    /* align-items: center; */
+    margin: auto;
+    max-width: 840px;
 }
 .grid {
     display: grid;
