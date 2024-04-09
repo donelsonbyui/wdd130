@@ -129,6 +129,12 @@ header {
     display: grid;
     
 }
+.grid {
+    display: grid;
+    align-items: center;
+    margin: auto;
+    max-width: 840px;
+}
 .box {
     width: 400px;
     padding: 1em;
