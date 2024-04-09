@@ -51,6 +51,7 @@ body {
     font-family: var(--paragraph-font);
     font-size: 1.2em;
     background:#c2e6ef
+    
 }
 .hero {
     margin-top: 1rem;        
@@ -199,15 +200,19 @@ main h1{
     padding:40px;
 }
 .happyrafter {
-    width: 10vw;
-    margin: 1rem auto;
+    width: 80vw;
+    margin: auto;
     background-color: rgb(175, 212, 245);
     padding: 1rem;
     border: 2px solid darkblue;
 }
+.happyrafterimage {
+    width: 60vw;
+    margin: auto;
+}
 .intro {
-    width: 15vw;
-    margin: 1rem auto;
+    width: 75vw;
+    margin: auto;
     background-color: aliceblue;
     padding: 1rem;
     border: 2px solid darkblue;
