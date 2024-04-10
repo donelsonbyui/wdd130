@@ -222,7 +222,7 @@ main h1{
     padding:40px;
 }
 .happyrafter {
-    width: 80vw;
+    width: 60vw;
     margin: auto;
     background-color: rgb(175, 212, 245);
     padding: 1rem;
@@ -230,7 +230,7 @@ main h1{
 }
 .happyrafterimage {
     width: 60%;
-    margin: 75%;
+    margin: 60%;
 }
 .intro {
    /*  width: 75vw;
