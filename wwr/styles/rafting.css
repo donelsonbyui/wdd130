@@ -244,7 +244,7 @@ main h1{
 }
 .containera {
     display: grid;
-    grid-template-rows: 2, 100px;
+    grid-template-rows: 2fr, 100px;
 }
 .item1{
     grid-row: span 2;
