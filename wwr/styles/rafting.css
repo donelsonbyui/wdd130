@@ -242,9 +242,9 @@ main h1{
 
 
 }
-.containera{
+.containera {
     display: grid;
-    grid-template-rows: repeat (2, 100px);
+    grid-template-rows: 2, 100px;
 }
 .item1{
     grid-row: span 2;
