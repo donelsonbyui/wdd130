@@ -236,7 +236,7 @@ main h1{
    /*  width: 75vw;
     margin: auto; */
     flex: 1;
-    background-color: aliceblue;
+    background-color: rgb(245, 248, 250);
     padding: 1rem;
     border: 2px solid darkblue;
 
